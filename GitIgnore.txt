@@ -1,0 +1,42 @@
+ 1  ls
+    2  cd devops
+    3  cd git
+    4  mkdir PractiseIgnore
+    5  cd PractiseIgnore
+    6  echo "This is Ignore Prctise" >> TestIgnore.txt
+    7  ls
+    8  ls -a
+    9  git init
+   10  ls
+   11  ls -a
+   12  git status
+   13  git add .
+   14  git commit -m "Ign1"
+   15  git status
+   16  git status
+   17  git status
+   18  echo "This is new line in Previous File" >> TestIgnore.txt
+   19  ls
+   20  ls -a
+   21  status
+   22  git status
+   23  git diff
+   24  echo "Hiii hellow" >> abc.class
+   25  git status
+   26  echo "This is new line in abc class" >>abc.class
+   27  git status
+   28  echo "This is ctxt" >> ab.ctxt
+   29  git status
+   30  ls -a
+   31  rm .gitignore
+   32  git status
+   33  ls -a
+   34  git restore --workspace
+   35  git add .
+   36  git status
+   37  ls -a
+   38  git status
+   39  git add .
+   40  git status
+   41  git restore --worktree
+   42  history
